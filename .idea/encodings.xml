@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/address_info.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/Parser/HomeMsgParser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/Parser/MerchantParser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/AddressAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/CollectAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/CollectSellerAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/GroupBuyDetailsViewPAgerAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/GroupBuyLikeAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/MapItemAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/MerchantAllAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/MerchantGroupAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/MerchantSaleAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/ObligationAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/adapter/TextAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/common/OverItemT.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/interfaces/Netcallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/myview/ExpandTabView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/myview/ViewMiddle.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/myview/ViewRight.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/myview/XListViewHeader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/myview/wheel/WheelView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/AccountActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/AddressManageActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/BaseActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/CheckUpdateActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/GroupBuyActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/GroupBuyDetailsActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/LoginActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MerchantActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MerchantDetailActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MineActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MoreActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MoreClassifyActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MovieActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/MyMapActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/OrderActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/PayOrderActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/RegisterActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/SelectCityActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/TodayNewOrderActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/ui/VoucherActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/utils/ImageUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/utils/MyShare.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/utils/NetPathToBitmapUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/utils/NetUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/utils/PingYinUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smart/life/utils/ScrollLayout.java" charset="GBK" />
+  </component>
+</project>

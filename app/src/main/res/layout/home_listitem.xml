@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundcolor"
+        >
+
+    <RelativeLayout
+        android:id="@+id/rl_homemsg_item"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white" >
+
+        <ImageView android:id="@+id/image_homemsg"
+            android:layout_width="72dip"
+            android:layout_height="72dip"
+            android:layout_margin="3dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:padding="2dip" />
+
+        <TextView android:id="@+id/homemsg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_homemsg"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/homemsg_date"
+            android:layout_alignWithParentIfMissing="true"
+            android:gravity="center_vertical"
+            android:textSize="25dip"
+            android:text="这是一个标题"/>
+
+        <ImageView
+            android:id="@+id/image_msgtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_group"
+            android:layout_toRightOf="@+id/homemsg_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView android:id="@+id/homemsg_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_homemsg"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textSize="15dip"
+            android:text="2015-08-02 18:02:37"/>
+    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

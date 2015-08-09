@@ -1,0 +1,130 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smart.life"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="false"
+        android:name="com.smart.life.app.AppContext"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity android:name="com.smart.life.ui.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.smart.life.ui.MineActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MoreActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.GroupBuyActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MerchantActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.AboutMeiTuanActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.NotificationActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MessageRemindActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.AccountActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.TicketActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.CollectActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.RecommendedActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.ShareSetActivity" >
+        </activity>
+        <activity
+            android:name="com.smart.life.ui.GroupBuyDetailsActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MerchantDetailActivity" >
+        </activity>
+        <activity
+            android:name="com.smart.life.ui.CheckUpdateActivity"
+            android:theme="@style/updateactivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.ObligationActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.PaidActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.VoucherActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.LotteryActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.GroupBuyImageDetailsActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MainActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.HomeActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.HomeMsgDetailActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.CommunityActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.CommunityLifeActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MyMapActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MoreClassifyActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.TodayNewOrderActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MovieActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.VoucherHelpActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.MyselfActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.ModPasswordActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.AddressManageActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.RegisterActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.LoginActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.SeekActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.OrderActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.PayOrderActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.OrderDetailActivity" >
+        </activity>
+        <activity android:name="com.smart.life.ui.NewAddressActivity" >
+        </activity>
+    </application>
+
+</manifest>
